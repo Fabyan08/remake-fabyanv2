@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vanilla */
+h1 {
+  -webkit-text-stroke: 1px #6DA9E4;
+}
+
+/* Tailwind */
+.mw {
+  @apply max-w-[1500px] mx-auto;
+}
